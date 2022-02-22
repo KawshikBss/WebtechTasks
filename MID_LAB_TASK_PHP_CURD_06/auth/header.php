@@ -1,4 +1,4 @@
 <?php
     if (!isset($_COOKIE['current_user']))
-        header('location: login.php');
+        header('location: ../auth/login.html');
 ?>
